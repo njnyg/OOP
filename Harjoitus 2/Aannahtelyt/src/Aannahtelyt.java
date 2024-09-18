@@ -10,3 +10,4 @@ public class Aannahtelyt {
         System.out.println(aannahdys);
     }
 }
+

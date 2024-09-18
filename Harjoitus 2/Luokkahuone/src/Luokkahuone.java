@@ -7,6 +7,4 @@ public class Luokkahuone {
         this.luokanKoodi = luokanKoodi;
         this.istumapaikat = istumapaikat;
     }
-
-
 }
