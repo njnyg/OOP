@@ -11,18 +11,29 @@ public class Luokkahuone {
     }
 
     public void tulostaLuokkahuone() {
-        System.out.println("Luokan koodi: " + luokanKoodi);
-        System.out.println("Istumapaikat: " + istumapaikat);
-        System.out.println("Varatut paikat: " + varatutPaikat);
+        System.out.println("Luokkahuoneen tiedot: ");
+        System.out.print("Tunnus: " + luokanKoodi);
+        System.out.print(", Istumapaikkoja: " + istumapaikat);
+        System.out.print(", Vapaita paikkoja: " + (istumapaikat - varatutPaikat) + "\n");
+    }
+
+    public boolean taynna(){
+        return varatutPaikat >= istumapaikat;
     }
 
     public void varaaPaikka() {
-        this.varatutPaikat++;
-        System.out.println("Varataan paikkaa...");
+        if (varatutPaikat < istumapaikat) {
+            varatutPaikat++;
+        }
     }
 
     public void tulostaTilanne() {
-        int vapaatPaikat = istumapaikat - varatutPaikat;
-        System.out.println("Vapaita paikkoja jäljellä: " + vapaatPaikat);
+        System.out.println("Paikkoja varattu: " + varatutPaikat);
+    }
+
+    public void poistuuPaikalta() {
+        if (varatutPaikat > 0) {
+            varatutPaikat--;
+        }
     }
 }
