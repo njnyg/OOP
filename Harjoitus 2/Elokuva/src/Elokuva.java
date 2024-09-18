@@ -1,8 +1,8 @@
 public class Elokuva {
 
     private String nimi;
-    private String genre;
     private int julkaisuvuosi;
+    private String genre;
     private int ikaraja;
 
     Elokuva(String nimi, int julkaisuvuosi, String genre, int ikaraja){
@@ -16,18 +16,6 @@ public class Elokuva {
 
     public String nimi() {
         return nimi;
-    }
-
-    public String getGenre() {
-        return genre;
-    }
-
-    public int getJulkaisuvuosi() {
-        return julkaisuvuosi;
-    }
-
-    public int getIkaraja() {
-        return ikaraja;
     }
 
     public boolean saakoKatsoa(int ika) {
