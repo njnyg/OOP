@@ -4,9 +4,7 @@ public class Luokkahuone {
     private int istumapaikat;
     private int varatutPaikat;
 
-    Luokkahuone(String luokanKoodi, int istumapaikat, int varatutPaikat) {
-        this.luokanKoodi = luokanKoodi;
-        this.istumapaikat = istumapaikat;
+    Luokkahuone(int varatutPaikat) {
         this.varatutPaikat = varatutPaikat;
     }
 
@@ -35,5 +33,18 @@ public class Luokkahuone {
         if (varatutPaikat > 0) {
             varatutPaikat--;
         }
+    }
+
+    public void setIstumapaikat(int istumapaikat){
+        this.istumapaikat = istumapaikat;
+
+    }
+
+    public void setLuokanKoodi(String luokanKoodi) {
+        this.luokanKoodi = luokanKoodi;
+    }
+
+    public String getLuokanKoodi() {
+        return luokanKoodi;
     }
 }
