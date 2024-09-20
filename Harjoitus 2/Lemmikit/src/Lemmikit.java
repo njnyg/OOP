@@ -1,3 +1,5 @@
+package Lemmikit.src;
+
 public class Lemmikit {
 
     private String laji;

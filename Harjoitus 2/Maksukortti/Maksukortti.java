@@ -1,3 +1,5 @@
+package Maksukortti;
+
 public class Maksukortti {
 
     private String omistaja;
