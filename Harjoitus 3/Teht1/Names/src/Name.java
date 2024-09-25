@@ -16,9 +16,7 @@ public class Name {
 
     public String readName() {
         System.out.println("Syötä nimi: ");
-        String input = scanner.nextLine();
-        return input;
-        
+        return scanner.nextLine();
     }
 
     public void printSecondName() {
