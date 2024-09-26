@@ -29,12 +29,4 @@ public class Game {
     public int getAwayScore() {
         return awayScore;
     }
-/*
-    public String readTeam() {
-        System.out.println("Joukkueen nimi: ");
-        Scanner scanner = new Scanner(System.in);
-        this.team = scanner.nextLine();
-        return team;
-    }*/
-
 }
