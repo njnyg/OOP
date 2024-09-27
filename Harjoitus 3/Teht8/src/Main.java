@@ -6,12 +6,13 @@ public class Main {
         Employee emp2 = new Employee("Päivi", "Järjestyksenvalvoja", 1112);
         Employee emp3 = new Employee("Mikko", "Baarimikko", 2233);
 
-        Artist artist1 = new Artist("DJ Big", "Acid house");
+        Artist artist1 = new Artist("DJ Big", "Progressive house");
         Artist artist2 = new Artist("Jonna J", "Hyperpop");
         Artist artist3 = new Artist("Wild child", "Hardstyle");
 
         Festival festival = new Festival("Kupittaanpuisto", "12.8.2025", "16.8.2025");
 
+        // Lisätään työntekijöitä ja artisteja
         festival.addEmployee(emp1);
         festival.addEmployee(emp2);
         festival.addEmployee(emp3);
@@ -22,6 +23,7 @@ public class Main {
 
         System.out.println(festival);
 
+        // Poistetaan
         festival.removeEmployee(emp1);
         festival.removeArtist(artist3);
 

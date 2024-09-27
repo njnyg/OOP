@@ -47,20 +47,20 @@ public class Festival {
             System.out.println("Haluttu esiintyjä ei ole listassa.");
         } else {
             artists.remove(artist);
+            this.numberOfArtists--;
         }
     }
 
     @Override
     public String toString() {
-        return "**** Festarit *** " + "\n" +
+        return "**** Festarit **** " + "\n" +
                 "Tapahtumapaikka: " + venue + '\n' +
                 "Aloituspäivä: " + startDate + '\n' +
                 "Lopetuspäivä: " + endDate + '\n' +
                 "Työntekijät: " + employees + '\n' +
                 "Esiintyjät: " + artists + '\n' +
                 "Työntekijöiden lukumäärä: " + numberOfEmployees + '\n' +
-                "Esiintyjien lukumäärä: " + numberOfArtists + '\n' +
-                '}';
+                "Esiintyjien lukumäärä: " + numberOfArtists + '\n';
     }
 }
 

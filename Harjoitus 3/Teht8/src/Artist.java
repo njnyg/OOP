@@ -11,6 +11,6 @@ public class Artist {
     @Override
     public String toString() {
         return "Nimi: " + name +
-                "Genre: " + genre;
+                " Genre: " + genre;
     }
 }

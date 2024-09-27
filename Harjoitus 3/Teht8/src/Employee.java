@@ -13,7 +13,7 @@ public class Employee {
     @Override
     public String toString() {
         return "Nimi: " + name +
-                "Työnkuva: " + jobDescription +
-                "ID: " + employeeId;
+                " Työnkuva: " + jobDescription +
+                " ID: " + employeeId;
     }
 }
