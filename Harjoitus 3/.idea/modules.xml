@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dinosaur/Dinosaur.iml" filepath="$PROJECT_DIR$/Dinosaur/Dinosaur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teht1/Integers/Integers.iml" filepath="$PROJECT_DIR$/Teht1/Integers/Integers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teht1/Names/Names.iml" filepath="$PROJECT_DIR$/Teht1/Names/Names.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teht2/Teht2.iml" filepath="$PROJECT_DIR$/Teht2/Teht2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teht3/Teht3.iml" filepath="$PROJECT_DIR$/Teht3/Teht3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teht4/Teht4.iml" filepath="$PROJECT_DIR$/Teht4/Teht4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teht5/Teht5.iml" filepath="$PROJECT_DIR$/Teht5/Teht5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teht8/Teht8.iml" filepath="$PROJECT_DIR$/Teht8/Teht8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Teht9 &amp; 10/Teht9 &amp; 10.iml" filepath="$PROJECT_DIR$/Teht9 &amp; 10/Teht9 &amp; 10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Tuntiharjoitus.iml" filepath="$PROJECT_DIR$/.idea/Tuntiharjoitus.iml" />
+    </modules>
+  </component>
+</project>
